@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tables, .tables td, .tables th{
+    border: 1px solid black;
+}
+
+
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
+#container{
+    margin: auto;
+    overflow: auto;
+    background-color: purple;
+    width: 400px;
+    visibility: hidden;
+}
+
+#current-prayer{
+
+    margin: auto;
+    margin-top: 5px;
+    background-color: yellow;
+    width: 300px;
+    height: 110px;
+}
+
+#xd-current-prayer-time{
+    text-align: right;
+}
+
+#xd-time-left{
+    text-align: right;
+}
+
+.prayer-list{
+    background-color: skyblue;
+    margin: 5px auto;
+    width: 300px;
+}
+
+.next-prayer{
+    background-color: lightgreen;
+}
+
+.last-prayer{
+    background-color: yellow;
+}
+
+#xd-next-prayer-time{
+    text-align: right;
+}
